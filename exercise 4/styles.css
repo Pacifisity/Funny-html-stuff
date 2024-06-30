@@ -1,0 +1,35 @@
+body {
+    background-image: url(valorant_esports.jpg);
+    /* this image comes from tracker.gg */
+
+    background-color: darkmagenta;
+    color: yellow;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+}
+
+a {
+    color: yellow;
+}
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
+.list_change {
+    list-style-type: upper-roman;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
