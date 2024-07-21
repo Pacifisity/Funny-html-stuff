@@ -1,0 +1,63 @@
+<!-- Skyler Church, Exercise 8, 7/14/2024,  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>User Feedback</h1>
+    <form>
+      <fieldset>
+        <legend>Please provide your feedback</legend>
+
+        <div>
+          <label for="firstName">First Name</label><br />
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="lastName">Last Name</label><br />
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="email">Email</label><br />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="satisfaction">Satisfaction</label><br />
+          <select id="satisfaction" name="satisfaction" required>
+            <option value="1">1 - Very Unhappy</option>
+            <option value="2">2 - Unhappy</option>
+            <option value="3" selected>3 - Neutral</option>
+            <option value="4">4 - Satisfied</option>
+            <option value="5">5 - Very Satisfied</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <label for="feedback">Feedback</label><br />
+          <textarea
+            id="feedback"
+            name="feedback"
+            rows="5"
+            cols="33"
+            required
+          ></textarea>
+        </div>
+        <br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
